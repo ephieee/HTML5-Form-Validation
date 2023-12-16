@@ -14,3 +14,23 @@ You have probably seen forms on the web that give users messages if the form con
    required="required" />
   <input type="submit" value="Submit" />
 </form>
+
+
+(At the time of writing, only 
+Chrome and Opera supported 
+HTML5 validation, although other 
+browsers are expected to follow. 
+In order to support older browsers 
+(that do not understand HTML5), 
+web page authors are likely to 
+continue using JavaScript to 
+validate forms.
+An example of HTML5 form 
+validation is the required
+attribute, which can be used on 
+any form element that the user 
+is expected to fill in. This HTML5 
+attribute does not need a value, 
+but in HTML 4 all attributes must 
+have a value. So, some people give 
+this attribute a value of required.)
